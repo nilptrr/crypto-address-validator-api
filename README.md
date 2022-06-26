@@ -20,15 +20,25 @@ cd src
 uvicorn --reload main:app
 ```
 
-## Usage
-symbol: Currency symbol, e.g. 'btc' or 'atom'.
-
-address: Currency address to validate.
-
-Example:
+## Endpoints
+### Validate
 ```
-/validate?symbol=btc&address=1Kd7V9gcKrDWADMo4Dr7SU9bKCY4mvcz9o
+GET /validate
 ```
+Validates the address of the passed symbol.
+
+#### Parameters:
+| Name    | Type | Mandatory | Description |
+|:--------|:-----|:----------|:------------|
+| symbol  | str  | yes       | Currency symbol, e.g. 'btc' or 'atom'. |
+| address | str  | yes       | Currency address to validate. |
+
+
+#### Example
+```
+GET /validate?symbol=btc&address=1Kd7V9gcKrDWADMo4Dr7SU9bKCY4mvcz9o
+```
+
 
 ## License
 The Unlicense. See the LICENSE file for details.
