@@ -16,8 +16,8 @@
 ```
 python3 -m venv venv
 (venv) pip install -r requirements.txt
-cd src
-uvicorn --reload main:app
+(venv) cd src
+(venv) uvicorn --reload main:app
 ```
 
 ## Endpoints
