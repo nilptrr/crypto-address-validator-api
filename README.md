@@ -1,5 +1,5 @@
 # Cryptro address validator API
-[API for Cryptro address validator](https://github.com/null-po1nter/crypto-address-validator)
+[API for cryptro address validator](https://github.com/null-po1nter/crypto-address-validator)
 
 ## Supported currencies
 | Currency      | Symbol | Mainnet | Testnet    | Note                                                                                                      |
